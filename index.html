@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <script src="js/trare.js"></script>
+    <title>ShareVel | 旅の思い出を共有しよう</title>
+    <script type="text/javascript">
+        function ScrollWindow(elem) {
+            var element = document.getElementById(elem);
+            var rect = element.getBoundingClientRect();
+            var elemtop = rect.top + window.pageYOffset;
+            document.documentElement.scrollTop = elemtop;
+        }
+
+    </script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1 class="header_logo">ShareVel</h1></a>
+        <ul class="header_contents">
+            <a id="About_button" class="header_contents_About" onclick="ScrollWindow('About')">About</a>
+            <a id="Vision_button" class="header_contents_Vision" onclick="ScrollWindow('Vision')">Vision</a>
+            <a class="header_contents_contact" href="#">Contact</a>
+        </ul>
+    </header>
+
+    <div class="title">
+        <h1 class="logo">ShareVel</h1>
+        <hr class="title_hr">
+        <p class="title_sub">旅の思い出を共有しよう</p>
+    </div>
+
+    <div id="About" class="About">
+        <h1 class="About_title">About</h1>
+        <div class="About_content1">
+            <h2 class="About_content1_sentence">旅行先で訪れた観光スポットを投稿し、世界中の人たちに共有</h2>
+            <img class="About_content1_img" src="sv_imgs/About_content1_img.png">
+        </div>
+        <div class="About_content2">
+            <h2 class="About_content2_sentence">どのデバイスでも利用可能</h2>
+            <p class="About_content2_sentence2">※ Windows10 MacOS iOS Andoroid</p>
+            <img class="About_content2_img" src="sv_imgs/About_content2_img.png">
+        </div>
+        <div class="About_content3">
+            <h2 class="About_content3_sentence">たくさん投稿してLevel Up</h2>
+            <img class="About_content3_img" src="sv_imgs/About_content3_img.png">
+        </div>
+    </div>
+
+    <div id="Vision" class="Vision">
+        <h1 class="Vision_title">Vision</h1>
+        <div class="Vision_content1">
+            <img class="Vision_content1_img" src="sv_imgs/Vision_content1_img.png">
+            <div class="Vision_content1_sentences">
+                <h1 class="Vision_content1_title">1.地域活性化</h1>
+                <h2 class="Vision_content1_detail">たくさんの観光スポットに訪れ<br>地域活性化の促進</h2>
+            </div>
+        </div>
+        <div class="res_Vision_content1">
+            <div class="res_Vision_content1_sentences">
+                <h1 class="res_Vision_content1_title">1.地域活性化</h1>
+                <h2 class="res_Vision_content1_detail">たくさんの観光スポットに訪れ<br>地域活性化の促進</h2>
+            </div>
+            <img class="res_Vision_content1_img" src="sv_imgs/Vision_content1_img.png">
+        </div>
+        <div class="Vision_content2">
+            <img class="Vision_content2_img" src="sv_imgs/Vision_content2_img.png">
+            <div class="Vision_content2_sentences">
+                <h1 class="Vision_content2_title">2.運動不足の解消</h1>
+                <h2 class="Vision_content2_detail">普段運動しない人も<br>ShareVelを利用し運動不足の解消</h2>
+            </div>
+        </div>
+        <div class="res_Vision_content2">
+            <div class="res_Vision_content2_sentences">
+                <h1 class="res_Vision_content2_title">2.運動不足の解消</h1>
+                <h2 class="res_Vision_content2_detail">普段運動しない人も<br>ShareVelを利用し運動不足の解消</h2>
+            </div>
+            <img class="res_Vision_content2_img" src="sv_imgs/Vision_content2_img.png">
+        </div>
+        <div class="Vision_content3">
+            <img class="Vision_content3_img" src="sv_imgs/Vision_content3_img.png">
+            <div class="Vision_content3_sentences">
+                <h1 class="Vision_content3_title">3.ユーザー同士の交流</h1>
+                <h2 class="Vision_content3_detail">ShareVelユーザー同士での交流をし、<br>コミュニケーション不足の解消</h2>
+            </div>
+        </div>
+        <div class="res_Vision_content3">
+            <div class="res_Vision_content3_sentences">
+                <h1 class="res_Vision_content3_title">3.ユーザー同士の交流</h1>
+                <h2 class="res_Vision_content3_detail">ShareVelユーザー同士での交流をし、<br>コミュニケーション不足の解消</h2>
+            </div>
+            <img class="res_Vision_content3_img" src="sv_imgs/Vision_content3_img.png">
+        </div>
+    </div>
+
+    <div class="download">
+        <h1 class="download_title">今すぐダウンロード</h1>
+        <div class="download_content">
+            <h1 class="logo">ShareVel</h1>
+            <hr class="download_hr">
+            <p class="download_sub">旅の思い出を共有しよう</p>
+            <div class="download_btn">
+                <a href="#"><img class="download_ios" src="sv_imgs/dl-badge-ios.png"></a>
+                <a href="#"><img class="downloado_android" src="sv_imgs/btn_app_google.png"></a>
+            </div>
+        </div>
+        <h2 class="ShareVel_url">https://ShareVel.jp</h2>
+    </div>
+
+    <footer>
+        <div class="footer_title">
+            <h1 class="footer_logo">ShareVel</h1>
+            <h2 class="footer_ShareVel_url">https://ShareVel.jp</h2>
+        </div>
+        <div class="footer_suport">
+            <h1 class="footer_suport_title">suport</h1>
+            <p class="footer_suport1">運営会社</p>
+            <p class="footer_suport2">採用情報</p>
+            <p class="footer_suport3">利用規約</p>
+            <p class="footer_suport4">特定商法引法に基づく表示</p>
+            <p class="footer_suport5">プライバシーポリシー</p>
+        </div>
+        <div class="footer_download">
+            <h1 class="footer_download_title">download</h1>
+            <a href="#"><img class="footer_download_ios" src="sv_imgs/dl-badge-ios.png"></a>
+            <a href="#"><img class="footer_download_android" src="sv_imgs/btn_app_google.png"></a>
+        </div>
+    </footer>
+
+    <div class="res_footer">
+        <div class="res_footer_title">
+            <h1 class="res_footer_logo">ShareVel</h1>
+            <h2 class="res_footer_ShareVel_url">https://ShareVel.jp</h2>
+        </div>
+        <div class="res_footer_suport">
+            <h1 class="res_footer_suport_title">suport</h1>
+            <p class="res_footer_suport1">運営会社</p>
+            <p class="res_footer_suport2">採用情報</p>
+            <p class="res_footer_suport3">利用規約</p>
+            <p class="res_footer_suport4">特定商法引法に基づく表示</p>
+            <p class="res_footer_suport5">プライバシーポリシー</p>
+        </div>
+        <div class="res_footer_download">
+            <h1 class="res_footer_download_title">download</h1>
+            <a href="#"><img class="res_footer_download_ios" src="sv_imgs/dl-badge-ios.png"></a>
+            <a href="#"><img class="res_footer_download_android" src="sv_imgs/btn_app_google.png"></a>
+        </div>
+    </div>
+    <p class="copyright">©︎2021 ShareVel, Inc.</p>
+</body>
+</html>

@@ -1,0 +1,266 @@
+@media screen and (max-width:600px) {
+    
+    /* header */
+
+    header{
+        position: none;
+    }
+
+    .header_logo{
+        padding: 0px 125px;
+        font-size: 32px;
+    }    
+
+    .header_contents{
+        display: none;
+    }
+
+    /* title */
+
+    .title{
+        padding: 200px 0px 100px 0px;
+    }
+    
+    .logo{
+        color: #00ADB5;
+        font-size: 48px;
+        text-shadow:1px 0 0 #fff,0 1px 0 #fff,-1px 0 0 #fff,0 -1px 0 #fff;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .title_hr{
+        margin: 0px 80px;
+    }
+    
+    .title_sub{
+        text-align: center;
+        color: #393E46;
+        font-size: 16px;
+    }
+
+    /* About */
+    
+    .About_title{
+        font-size: 48px;
+    }
+
+    .About_content1_sentence{
+        font-size: 24px;
+    }
+    
+    .About_content1_img{
+        padding: 0px 0px;
+        width: 100%;
+    }
+
+    .About_content2_sentence{
+        font-size: 24px;
+    }
+    
+    .About_content2_sentence2{
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    
+    .About_content2_img{
+        padding: 0px 0px;
+        width: 100%;
+    }
+
+    .About_content3_sentence{
+        font-size: 24px;
+    }
+    
+    .About_content3_img{
+        padding: 0px 0px;
+        width: 100%;
+    }
+
+    /* Vision */
+    .Vision_title{
+        font-size: 48px;
+    }
+
+    .Vision_content1{
+        display: none;
+    }
+
+    .Vision_content2{
+        display: none;
+    }
+
+    .Vision_content3{
+        display: none;
+    }
+
+    .res_Vision_content1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #393E46;
+        margin: 20px 0px;
+    }
+
+    .res_Vision_content1_title{
+        font-size: 32px;
+    }
+
+    .res_Vision_content1_detail{
+        font-size: 24px;
+    }
+
+    .res_Vision_content1_img{
+        width: 80%;
+        padding: 0px 0px 0px 45px;
+    }
+
+    .res_Vision_content2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #393E46;
+        margin: 20px 0px;
+    }
+
+    .res_Vision_content2_title{
+        font-size: 32px;
+    }
+
+    .res_Vision_content2_detail{
+        font-size: 24px;
+    }
+
+    .res_Vision_content2_img{
+        width: 80%;
+        padding: 0px 0px 0px 45px;
+    }
+
+    .res_Vision_content3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #393E46;
+        margin: 20px 0px;
+    }
+
+    .res_Vision_content3_title{
+        font-size: 32px;
+    }
+
+    .res_Vision_content3_detail{
+        font-size: 21px;
+    }
+
+    .res_Vision_content3_img{
+        width: 80%;
+        padding: 0px 0px 0px 45px;
+    }
+    
+    /* download */
+
+    .download{
+        padding: 50px 0px 100px 0px;
+    }
+    
+    .download_title{
+        font-size: 24px;
+    }
+    
+    .download_hr{
+        margin: 10px 100px 0px 100px;
+    }
+    
+    .download_sub{
+        font-size: 10px;
+        margin: 20px 0px 30px 0px;
+    }
+    
+    .download_content{
+        padding: 100px 0px;
+        border-radius: 150px;
+    }
+    
+    .download_ios{
+        width: 50%;
+        padding: 0px 0px 0px 60px;
+    }
+    
+    .downloado_android{
+        width: 70%;
+        padding: 0px 0px;
+    }
+    
+    .ShareVel_url{
+        padding: 0px 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    /* footer */
+    footer{
+        display: none;
+    }
+
+    .res_footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .res_footer_logo{
+        color: #00ADB5;
+        font-size: 48px;
+        text-shadow:1px 0 0 #fff,0 1px 0 #fff,-1px 0 0 #fff,0 -1px 0 #fff;
+        margin: 50px 0px 0px 0px;
+        text-align: center;
+    }
+    
+    .res_footer_ShareVel_url{
+        color: #393E46;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .res_footer_download{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .res_footer_download_title{
+        color: #393E46;
+        font-size: 24px;
+        padding: 0px;
+        text-align: center;
+    }
+    
+    .res_footer_download_ios{
+        width: 40%;
+        margin: 0px 0px 30px 0px;
+        padding: 0px;
+    }
+    
+    .res_footer_download_android{
+        width: 40%;
+        padding: 0px;
+    }
+    
+    .res_footer_suport{
+        color: #393E46;
+        text-align: center;
+    }
+
+    .res_footer_suport_title{
+        color: #393E46;
+        font-size: 24px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .copyright{
+        color: #393E46;
+        text-align: center;
+        padding: 50px 0px 0px 0px;
+    }
+}
