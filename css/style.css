@@ -25,7 +25,7 @@ header{
 }
 
 .header_contents{
-    margin: 35px 0px 0px 660px;
+    margin: 35px 0px 0px 1140px;
     font-size: 24px;
 }
 
@@ -137,6 +137,9 @@ header{
 
 .About_content1{
     margin: 0px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .About_content1_sentence{
@@ -147,12 +150,14 @@ header{
 }
 
 .About_content1_img{
-    padding: 0px 350px;
     width: 50%;
 }
 
 .About_content2{
     margin: 0px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .About_content2_sentence{
@@ -163,13 +168,18 @@ header{
 }
 
 .About_content2_sentence2{
-    padding: 0px 0px 0px 440px;
     color: #393E46;
 }
 
 .About_content2_img{
     padding: 0px 350px;
     width: 50%;
+}
+
+.About_content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .About_content3_sentence{
@@ -180,7 +190,6 @@ header{
 }
 
 .About_content3_img{
-    padding: 0px 350px;
     width: 50%;
 }
 
@@ -211,17 +220,17 @@ header{
 
 .Vision_content1_title{
     color: #393E46;
-    font-size: 48px;
+    font-size: 72px;
 }
 
 .Vision_content1_detail{
-    font-size: 24px;
+    font-size: 32px;
     color: #393E46;
 }
 
 .Vision_content2{
     margin: 0px 0px 100px 0px;
-    padding: 0px 150px 0px 100px;
+    padding: 0px 80px 0px 100px;
     display: flex;
     justify-content: space-around;
 }
@@ -233,17 +242,17 @@ header{
 
 .Vision_content2_title{
     color: #393E46;
-    font-size: 48px;
+    font-size: 72px;
 }
 
 .Vision_content2_detail{
-    font-size: 24px;
+    font-size: 32px;
     color: #393E46;
 }
 
 .Vision_content3{
     margin: 0px 0px 100px 0px;
-    padding: 0px 70px 0px 100px;
+    padding: 0px 20px 0px 100px;
     display: flex;
     justify-content: space-around;
 }
@@ -255,33 +264,36 @@ header{
 
 .Vision_content3_title{
     color: #393E46;
-    font-size: 48px;
+    font-size: 64px;
 }
 
 .Vision_content3_detail{
-    font-size: 24px;
+    font-size: 32px;
     color: #393E46;
 }
 
+/* download */
+
 .download{
     background-color: white;
-    padding: 50px 100px 100px 100px;
+    padding: 50px 200px 100px 200px;
 }
 
 .download_title{
     color: #393E46;
-    font-size: 32px;
+    font-size: 72px;
     text-align: center;
 }
 
 .download_hr{
-    margin: 20px 400px 0px 400px;
+    margin: 20px 500px 0px 500px;
 }
 
 .download_sub{
     text-align: center;
     color: #ffffff;
     margin: 20px 0px 100px 0px;
+    font-size: 32px;
 }
 
 .download_content{
@@ -296,7 +308,7 @@ header{
 }
 
 .download_ios{
-    width: 30%;
+    width: 35%;
     padding: 0px 0px 0px 250px;
 }
 
@@ -308,6 +320,7 @@ header{
 .ShareVel_url{
     padding: 0px 100px;
     color: #393E46;
+    font-size: 32px;
 }
 
 footer{
@@ -325,6 +338,7 @@ footer{
 
 .footer_ShareVel_url{
     color: #393E46;
+    font-size: 32px;
 }
 
 .footer_download{
@@ -337,6 +351,7 @@ footer{
     color: #393E46;
     font-size: 32px;
     padding: 0px;
+    font-size: 32px;
 }
 
 .footer_download_ios{
@@ -352,6 +367,10 @@ footer{
 
 .footer_suport{
     color: #393E46;
+}
+
+.footer_suport_title{
+    font-size: 32px;
 }
 
 .copyright{
